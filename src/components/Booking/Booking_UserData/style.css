@@ -1,0 +1,84 @@
+.booking_form_container {
+    grid-area: 2/1/3/3;
+    padding: 16px;
+}
+
+.booking_form_card {
+    height: 35vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgba(223, 228, 234, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 16px;
+    margin: 0rem 1px 0.5rem 0.5rem;
+}
+
+.booking_form input {
+    width: 25vw;
+}
+
+.booking_form_input-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_form_input-lastname {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_form_input-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_form_input-city {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .booking_form_container, .booking_form{
+        height:fit-content;
+    }
+
+    .booking_form_card{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height:auto;
+        
+    }
+
+    .booking_form input {
+        width: 55vw;
+        height:5vh;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 913px) {
+
+    .booking_form_container, .booking_form{
+        height:fit-content;
+    }
+
+    .booking_form_card{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height:auto;
+    }  
+    .booking_form label{
+        font-size: 20px;
+    }
+    .booking_form input {
+        width: 60vw;
+        height:4vh;
+    }
+}

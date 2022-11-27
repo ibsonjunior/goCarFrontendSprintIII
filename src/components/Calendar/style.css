@@ -1,0 +1,82 @@
+.calendar_container {
+    grid-area: 3/1/4/3;
+    padding: 16px;
+}
+
+.calendar_container_card {
+    border: 1px solid rgba(223, 228, 234, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 16px;
+    margin: 0.5rem;
+}
+
+.calendar_container_card_dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdrCalendarWrapper {
+    width: 100%;
+}
+
+.rdrDateDisplayWrapper .rdrDateDisplay .rdrDateInput input{
+    color: #000000;
+}
+
+.rdrNextPrevButton {
+    background-color: #f48240;
+}
+
+.rdrNextPrevButton:hover {
+    background-color: #f48240;
+}
+
+.rdrMonthAndYearPickers .rdrMonthPicker select {
+    font-weight: bold;
+}
+
+.rdrMonthAndYearPickers .rdrMonthPicker select:hover {
+    color: black;
+    background-color: #f48240;
+}
+
+.rdrMonthAndYearPickers .rdrMonthPicker select:focus {
+    color: black;
+    background-color: #f48240;
+}
+
+.rdrMonthAndYearPickers .rdrMonthPicker option {
+    font-weight: 600;
+}
+
+.rdrMonthAndYearPickers .rdrYearPicker select {
+    font-weight: bold;
+}
+
+.rdrMonthAndYearPickers .rdrYearPicker select:hover {
+    color: black;
+    background-color: #f48240;
+}
+
+.rdrMonthAndYearPickers .rdrYearPicker select:focus {
+    color: black;
+    background-color: #f48240;
+}
+
+.rdrMonthAndYearPickers .rdrYearPicker option {
+    font-weight: 600;
+}
+
+.rdrMonth {
+    width: 100%;
+}
+
+.rdrMonth .rdrMonthName {
+    color: #000000;
+}
+
+.rdrMonth .rdrWeekDay {
+    color: #000000;
+}

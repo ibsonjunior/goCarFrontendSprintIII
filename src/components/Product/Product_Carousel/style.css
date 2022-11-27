@@ -1,0 +1,11 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+.image-gallery-thumbnails{
+    min-width: fit-content;
+}
+
+.image-gallery-thumbnails-container{
+    width: 486px;
+}

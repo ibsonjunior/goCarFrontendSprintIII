@@ -1,0 +1,87 @@
+.booking_details_container {
+    width: 35vw;
+    height: 100%;
+    grid-area: 2/3/5/4;
+    padding: 16px;
+}
+
+.booking_details_card {
+    height: 100%;
+    border: 1px solid rgba(223, 228, 234, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.booking_details_card_title {
+    padding: 16px;
+}
+
+.booking_details_card_image {
+    width: 100%;
+    height: 55vh;
+}
+
+.booking_details_card_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.booking_details_info_container {
+    padding: 32px;
+}
+
+.booking_details_info-location {
+    margin-top: 2rem;
+}
+
+.booking_details_info-check {
+    margin-top: 3rem;
+}
+
+.booking_details_info-checkin {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid gray;
+    padding: 16px;
+}
+
+.booking_details_info-line {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.booking_details_info-checkout {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid gray;
+    padding: 16px;
+}
+
+.booking_details_info-button {
+    width: 100%;
+    height: 7vh;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #f48240;
+    margin: 0.25rem;
+    margin-top: 3.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 913px) {
+    .booking_details_container {
+        width:fit-content;
+    }
+
+    .booking_details_card {
+        height:fit-content;
+    }   
+
+    .booking_details_info_container {
+        padding:20px;
+    }
+}

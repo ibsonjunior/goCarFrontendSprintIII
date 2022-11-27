@@ -1,0 +1,91 @@
+body {
+    min-height: 100vh;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow-y: hidden;
+    position: relative;
+    margin-top: 15vh;
+}
+
+.booking_login_container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking_login_warning {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0, 0.1);
+    color: #B00020;
+    padding: 16px 16px 0px 16px;
+}
+
+.login_field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.login_flex{
+    margin-top: 8vh;
+}
+
+.title{
+    overflow: hidden;
+    text-align: center;
+}
+
+.login_input_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_input_flex input{
+    margin: 0.5rem;
+    width: 30vw;
+    border-radius: 8px;
+    padding: 8px;
+    overflow-x: hidden;
+    /* -webkit-border-radius:
+    -moz-border-radius:
+    -ms-border-radius:
+    -o-border-radius: */
+}
+
+.btn_login{
+    width: 8vw;
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+
+@media(max-width: 480px){
+    .btn_login{
+        width: 30vw;
+        padding: 6px;
+        overflow-x: hidden;
+    }
+}

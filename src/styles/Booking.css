@@ -1,0 +1,45 @@
+/* body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fafafa;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f48240;
+    border-radius: 20px;
+} */
+
+.booking_container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 2fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fafafa;
+  /* text-align:center; */
+}
+
+.booking_form_title {
+  width: 100%;
+  height: fit-content;
+  grid-area: 1/1/2/4;
+  margin-top: 2rem;
+  /* margin-left: 1rem; */
+  margin-bottom: 0;
+  overflow-y: hidden;
+  background-color: #fafafa;
+}
+
+
+@media (min-width: 0px) and (max-width: 913px) {
+  .booking_container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+  }
+}

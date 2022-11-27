@@ -1,0 +1,42 @@
+.categories_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+}
+
+.card_category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 21vw;
+    height: 35vh;
+    margin-left:1rem;
+    border: 1px solid rgba(223, 228, 234, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card_category img{
+    max-width: 20vw;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.card_category h2 {
+    overflow-y: hidden;
+}
+
+.category_info{
+    overflow-y: hidden;
+}
+
+@media  (max-width:767px){
+
+    .card_category{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.booking_done_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75vh;
+}
+
+.booking_done_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: fit-content;
+    padding: 32px;
+    gap: 16px;
+    box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.booking_done_check-item{
+    color: #f48240;
+}
+
+.booking_done_title{
+    color: #f48240;
+}
+
+.booking_done_button{
+    width: 15vw;
+    height: fit-content;
+    padding: 8px;
+    background-color: #f48240;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
